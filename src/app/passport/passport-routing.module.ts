@@ -5,6 +5,7 @@ import { SignupComponent } from './signup/signup.component';
 
 
 const routes: Routes = [
+  { path: '' , redirectTo: 'login' , pathMatch: 'full'},
   { path: 'login', component: LoginComponent, data: { title: '登录' } },
   { path: 'signup', component: SignupComponent, data: { title: '注册' } }
 ];

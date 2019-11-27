@@ -8,7 +8,7 @@ import { SignupComponent } from './signup/signup.component';
 const COMPONENTS = [
   LoginComponent,
   SignupComponent
-]
+];
 @NgModule({
   declarations: [
     ...COMPONENTS
